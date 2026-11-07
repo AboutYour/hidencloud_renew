@@ -39,9 +39,6 @@ jobs:
         HTTP_PROXY: ${{ secrets.PROXY_URL }}
         HTTPS_PROXY: ${{ secrets.PROXY_URL }}
         ALL_PROXY: ${{ secrets.PROXY_URL }}
-        http_proxy: ${{ secrets.PROXY_URL }}
-        https_proxy: ${{ secrets.PROXY_URL }}
-        all_proxy: ${{ secrets.PROXY_URL }}
         PYTHONUTF8: "1"
         PYTHONIOENCODING: UTF-8
         NOTIFY_CHANNEL: ${{ vars.NOTIFY_CHANNEL || secrets.NOTIFY_CHANNEL }}
